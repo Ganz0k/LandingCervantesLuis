@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <title>Página principal</title>
+    <title>Información de Contacto</title>
 </head>
 
 <body>
@@ -26,22 +26,7 @@
 
     <br>
 
-    <main class="presentacion">
-        <p>
-            <b>Nombre:</b> Luis Gonzalo Cervantes Rivera
-        </p>
-        <p>
-            <b>Carrera:</b> Ingeniería en Software
-        </p>
-        <p>
-            <b>Materia:</b> Aplicaciones Móviles
-        </p>
-        <p>
-            <b>Maestro:</b> Omar López Chavez
-        </p>
-        <!-- 
-        <hr>
-
+    <main>
         <div class="contacto">
             <h2>Información de contacto</h2>
             <ul>
@@ -52,7 +37,21 @@
             </ul>
         </div>
 
-        <hr> -->
+        <form action="mailto:luis.cervantes228549@potros.itson.edu.mx?subject=Greeting" method="post" enctype="text/plain">
+            <br>
+
+            <label>Puedes enviar un correo a través de este sitio</label>
+
+            <br>
+            <br>
+
+            <textarea name="comentarios" cols="61" rows="5"></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" name="boton" value="Enviar Mensaje" />
+        </form>
     </main>
 
     <footer id="pie">

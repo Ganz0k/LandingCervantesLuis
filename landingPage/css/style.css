@@ -4,6 +4,22 @@ body {
     padding: 0;
 }
 
+nav {
+    border-bottom: 5px solid #ccc;
+    border-top: 5px solid #ccc;
+}
+
+nav a {
+    color: orangered;
+    text-decoration: none;
+    margin-left: 180px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
 #portada {
     height: 116px;
     width: 100%;
@@ -40,8 +56,18 @@ h3 {
     text-align: center;
 }
 
+.presentacion p {
+    text-align: center;
+}
+
 .hobbies {
     background-color: lightgrey;
+}
+
+.hobbies p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .hobbies ul {
@@ -63,6 +89,20 @@ h3 {
 .videojuegosFavoritos img {
     height: 500px;
     margin-left: 310px;
+}
+
+.comicsFavoritos img {
+    height: 350px;
+    margin-left: 120px;
+}
+
+.seriesFavoritas img {
+    height: 350px;
+    margin-left: 120px;
+}
+
+#peliculas {
+    margin-left: 110px;
 }
 
 .contacto ul li a {
