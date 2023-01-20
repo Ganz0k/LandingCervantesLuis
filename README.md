@@ -1,2 +1,2 @@
-# Asignación 1 de la clase de Aplicaciones Móviles
+# First Assignment
 # Luis Gonzalo Cervantes Rivera | 00000228549
